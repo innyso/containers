@@ -11,5 +11,6 @@ A simple container to tail any logs from another container
 
 ## Example
 ``docker build -t tail_logs .``
+
 ``docker run -it --rm --name=mariadb_logs --volume-from mariadb_container tail_logs ./var/log/mariadb/mariadb.log``
 

@@ -9,4 +9,5 @@ Just a very simple mariadb container with port 3306 exposed and /var/log/mariadb
 
 ## Example
 ``docker build -t mariadb_image .``
+
 ``docker run -it -d 3306:3306 --name=mariadb_container mariadb_image``
